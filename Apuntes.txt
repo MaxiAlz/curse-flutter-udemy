@@ -1,0 +1,17 @@
+## Aplicacion TockTik ##
+
+
+- Carpetas:
+
+	#Config: Aqui se agregan todos los archivos y funciones que tienen que ver con configuraciones de la aplicacion, por ejemplo: Temas(Themes).
+
+	#Dominio(daomain): Aca va codigo puro de dart. como entidades de datos
+
+		- entities: Modelos de datos tipados que se van a usar en diferentes partes de la aplicacion de la logia de negocios.
+	
+	#presentation: Donde vana a estar todos los archivos que tienen que ver con mostrar cosasa en pantalla, como paginas, componentes, etc
+
+	#infrestructure: Archivos de modelos y mapers
+		- models: Modelos de datos que se mapean con los modelsod e datos externos de la aplicacion. por ejemplo si recibo un name: Juancito => puedo convertirlo en => principalName: name. Y mas que todo sirve para usarlo en el Provider
+
+
